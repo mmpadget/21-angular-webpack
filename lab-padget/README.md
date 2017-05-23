@@ -65,7 +65,11 @@ The result of installation above.
 ```
 
 ## Application
-There is no application yet.
+In Terminal run `webpack`
+In your browser visit `http://localhost:8080/`
+
+To change the cowsay ASCII art update index.js using the following resource:
+https://helloacm.com/cowsay/
 
 ## Running Tests
 In [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) (Terminal) enter the command:

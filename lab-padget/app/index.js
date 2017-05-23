@@ -13,13 +13,16 @@ cowsayApp.controller('CowsayController', ['$log', '$scope', CowsayController]);
 function CowsayController($log, $scope) {
   $log.debug('#CowsayController');
 
+  $log.log(cowsay);
+
   let cowsayCtrl = $scope.cowsayCtrl = {};
 
-  cowsayCtrl.title = 'Welcome to cowville';
+  cowsayCtrl.title = 'Welcome to Meowsay';
 
   cowsayCtrl.speak = function(input) {
     $log.debug('#cowsayCtrl.speak');
-    return cowsay.say({text: input || 'moooo', f: 'dragon'});
+    // return cowsay.say({text: input || 'moooo', f: 'dragon'});
+    return cowsay.say({text: input || 'I\'m a kitty', f: 'meow'});
   };
 
   cowsayCtrl.logger = function(input) {
