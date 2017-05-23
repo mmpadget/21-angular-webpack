@@ -71,6 +71,9 @@ In your browser visit `http://localhost:8080/`
 To change the cowsay ASCII art update index.js using the following resource:
 https://helloacm.com/cowsay/
 
+Add `$log.log(cowsay);` to index.js in the `CowsayController` function.
+Open your console in the web browser and explore cowsay.
+
 ## Running Tests
 In [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) (Terminal) enter the command:
 

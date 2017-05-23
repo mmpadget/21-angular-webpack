@@ -13,8 +13,6 @@ cowsayApp.controller('CowsayController', ['$log', '$scope', CowsayController]);
 function CowsayController($log, $scope) {
   $log.debug('#CowsayController');
 
-  $log.log(cowsay);
-
   let cowsayCtrl = $scope.cowsayCtrl = {};
 
   cowsayCtrl.title = 'Welcome to Meowsay';
