@@ -3,6 +3,8 @@
 ## Description
 For this lab we created a cowsay application to become more familiar with angular and webpack. We scaffolded a basic app.
 
+* [Cowsay](http://www.cowsays.com)
+
 For more information see:
 * [Class 21](https://github.com/codefellows/seattle-javascript-401d15/tree/master/class-21-intro-to-angular-webpack)
 * [Lab 21](https://github.com/codefellows-seattle-javascript-401d15/21-angular-webpack)
@@ -77,7 +79,7 @@ There are no tests for this lab.
 * [Webpack Tutorial](https://webpack.github.io/docs/tutorials/getting-started/)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/mmpadget/) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/mmpadget/21-angular-webpack/blob/lab-21/lab-padget/LICENSE) file for details.
 
 ## Acknowledgments
 * Code Fellows
